@@ -77,28 +77,16 @@
   bottom: 0;
 }
 
-#about .html::after {
-  width: 65%;
+#about .web::after {
+  width: 70%;
 }
 
-#about .js::after {
-  width: 25%;
+#about .uiux::after {
+  width: 75%;
 }
 
-#about .sql::after {
-  width: 35%;
-}
-
-#about .python::after {
-  width: 65%;
-}
-
-#about .php::after {
-  width: 45%;
-}
-
-#about .java::after {
-  width: 30%;
+#about .graphic::after {
+  width: 60%;
 }
 
 @media (max-width: 960px) {

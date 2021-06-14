@@ -80,28 +80,16 @@
     }
   }
 
-  .html::after {
-    width: 65%;
+  .web::after {
+    width: 70%;
   }
 
-  .js::after {
-    width: 25%;
+  .uiux::after {
+    width: 75%;
   }
 
-  .sql::after {
-    width: 35%;
-  }
-
-  .python::after {
-    width: 65%;
-  }
-
-  .php::after {
-    width: 45%;
-  }
-
-  .java::after {
-    width: 30%;
+  .graphic::after {
+    width: 60%;
   }
 }
 
