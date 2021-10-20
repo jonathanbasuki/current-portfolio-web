@@ -1,25 +1,37 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,200&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700;800&display=swap");
-#projects .project {
+#projects .project,
+#projects .blog,
+#blogs .project,
+#blogs .blog {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 20px;
 }
 
-#projects .project img {
+#projects .project img,
+#projects .blog img,
+#blogs .project img,
+#blogs .blog img {
   width: 100%;
   border-radius: 6px;
   overflow: hidden;
   box-shadow: 1px 1px 1px solid #475166;
 }
 
-#projects .project img:hover {
+#projects .project img:hover,
+#projects .blog img:hover,
+#blogs .project img:hover,
+#blogs .blog img:hover {
   opacity: 0.5;
   transition: 0.3s linear;
 }
 
-#projects .project .btn-light {
+#projects .project .btn-light,
+#projects .blog .btn-light,
+#blogs .project .btn-light,
+#blogs .blog .btn-light {
   display: block;
   padding: 10px 0;
   border: 0;
@@ -31,12 +43,18 @@
   color: #353b48;
 }
 
-#projects .project .btn-light:hover {
+#projects .project .btn-light:hover,
+#projects .blog .btn-light:hover,
+#blogs .project .btn-light:hover,
+#blogs .blog .btn-light:hover {
   background-color: #48dbfb;
   color: #fff;
 }
 
-#projects .project .btn-dark {
+#projects .project .btn-dark,
+#projects .blog .btn-dark,
+#blogs .project .btn-dark,
+#blogs .blog .btn-dark {
   display: block;
   padding: 10px 0;
   border: 0;
@@ -48,23 +66,35 @@
   color: #f1f1f1;
 }
 
-#projects .project .btn-dark:hover {
+#projects .project .btn-dark:hover,
+#projects .blog .btn-dark:hover,
+#blogs .project .btn-dark:hover,
+#blogs .blog .btn-dark:hover {
   background-color: #48dbfb;
   color: #fff;
 }
 
-#projects .item .project-image {
+#projects .item .project-image,
+#projects .item .blog-image,
+#blogs .item .project-image,
+#blogs .item .blog-image {
   color: #f1f1f1;
 }
 
 @media (max-width: 960px) {
-  #projects .project {
+  #projects .project,
+  #projects .blog,
+  #blogs .project,
+  #blogs .blog {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (max-width: 600px) {
-  #projects .project {
+  #projects .project,
+  #projects .blog,
+  #blogs .project,
+  #blogs .blog {
     grid-template-columns: repeat(1, 1fr);
   }
 }

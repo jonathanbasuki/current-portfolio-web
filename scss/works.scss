@@ -3,8 +3,10 @@
 @import "mixins";
 
 // Projects Section
-#projects {
-  .project {
+#projects,
+#blogs {
+  .project,
+  .blog {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 20px;
@@ -31,23 +33,28 @@
   }
 
   .item {
-    .project-image {
+    .project-image,
+    .blog-image {
       color: $bg-light;
     }
   }
 }
 
 @media (max-width: 960px) {
-  #projects {
-    .project {
+  #projects,
+  #blogs {
+    .project,
+    .blog {
       grid-template-columns: repeat(2, 1fr);
     }
   }
 }
 
 @media (max-width: 600px) {
-  #projects {
-    .project {
+  #projects,
+  #blogs {
+    .project,
+    .blog {
       grid-template-columns: repeat(1, 1fr);
     }
   }
